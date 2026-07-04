@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  background: #f5f4f1;
+  color: #0d1b2a;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 168, 76, 0.18);
+  border-radius: 10px;
+}
+
+.font-serif-display {
+  font-family: "Playfair Display", serif;
+}
